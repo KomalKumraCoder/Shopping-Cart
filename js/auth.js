@@ -5,7 +5,7 @@ var mainDiv=document.getElementById("mainDiv");
 
 var allUsers=getStoredUser();
 var newEntry=allUsers.length;
-function getStoredUser()	//fetch stored users from JSON stored to our product array pata ni kya chala hua hai isme
+function getStoredUser()	//fetch stored users from JSON stored to our product array
 {
 if (!localStorage.allUsers)
 {
